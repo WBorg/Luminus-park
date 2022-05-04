@@ -20,9 +20,9 @@ import {
             <Routes>
                   <Route path="/" element={<PagesHome />} />
                   <Route path="/atracoes" element={<PagesAtracoes />} />
-                  <Route path="/Contatos" element={<PagesContatos />} />
-                  <Route path="/Ingressos" element={<PagesIngressos />} />
-                  <Route path="/QuemSomos" element={<PagesQuemSomos />} />
+                  <Route path="/contatos" element={<PagesContatos />} />
+                  <Route path="/ingressos" element={<PagesIngressos />} />
+                  <Route path="/quemsomos" element={<PagesQuemSomos />} />
 
 
 
