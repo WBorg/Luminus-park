@@ -13,7 +13,7 @@ function Header() {
     
     
     return ( 
-        <div className={headerCss.Container}>
+        <header className={headerCss.Container}>
        
         <img src={logo} alt="Logo" />
             
@@ -35,7 +35,7 @@ function Header() {
                         <li><Link className={headerCss.link} to="/quemsomos">Quem somos</Link></li>
                 </ul>
             </nav>
-        </div>
+        </header>
      );
 }
 

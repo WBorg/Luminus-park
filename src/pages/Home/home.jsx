@@ -1,7 +1,8 @@
 import React from 'react';
 // import styled from 'styled-components';
 import Header from 'components/Header/Header';
-import Main from 'components/Main/Main'
+import Main from 'components/Main/Main';
+import Footer from 'components/Footer/Footer';
 
 // const LayoutContainer = styled.div`
 
@@ -16,12 +17,9 @@ function Home(){
    
     return( 
         <>
-            <header>
-                <Header/>
-            </header>
-            <main>
-                <Main/>
-            </main>
+            <Header/>
+            <Main/>
+            <Footer/>
         </>
     )
 }
