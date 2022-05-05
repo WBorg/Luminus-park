@@ -1,0 +1,35 @@
+.title{
+    color: rgb(243, 81, 7); 
+    font-size: 30px;
+    margin-top:30px;
+    margin-bottom: 10px;
+}
+.main{
+    display: flex;
+    /* height: 200px; */
+    width: 100%;
+    justify-content: space-between;
+    
+}
+.text{
+    width: 40%;
+    border: 1px solid red;
+    text-align: center;
+    padding: 10px;
+}
+.boxImg{
+    width: 900px;
+    
+
+
+}
+.boxImg img{
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+
+}
+
+.conteudo{
+    font-size: 14px;
+}

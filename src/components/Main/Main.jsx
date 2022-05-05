@@ -7,9 +7,9 @@ function Main() {
             <main>
                 <div className={mainCss.banner}></div>
                 <div className={mainCss.box}>
-                    <section class="destaques"></section>
-                    <section class="ingressos"></section>
-                    <section class="dicas"></section>
+                    <section className={mainCss.sectionHome}></section>
+                    <section className={mainCss.sectionHome}></section>
+                    <section className={mainCss.sectionHome}></section>
                 </div>
                 </main> 
                 

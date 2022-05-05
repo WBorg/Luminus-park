@@ -19,7 +19,7 @@
     align-items: center;
     background-color: rgba(0,0,0,0.8);
     justify-content: space-between;
-    /* position: absolute; */
+    font-family: 'DM Sans', sans-serif;
 }
 img{
     width: 40%;

@@ -11,4 +11,11 @@ footer ul{
     display: flex;
     gap: 20px;
 }
+footer ul li a i{
+    color: #000;
+}
 
+footer ul li a i:hover{
+    transform: scale(1.4);
+
+}
