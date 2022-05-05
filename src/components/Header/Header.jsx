@@ -15,7 +15,7 @@ function Header() {
     return ( 
         <header className={headerCss.Container}>
        
-        <img src={logo} alt="Logo" />
+        <img className={headerCss.logoImg} src={logo} alt="Logo" />
             
             
             <nav className={headerCss.Nav}>
