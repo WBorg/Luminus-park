@@ -2,6 +2,8 @@ import React from 'react';
 import contatos from '../../components/Contatos/contatos.module.css';
 
 function Contato() {
+
+  
     return ( 
         <>
     <main className={contatos.wrapper}>
@@ -21,11 +23,7 @@ function Contato() {
     
     <div className={contatos.containner}>
        <h1>Formulário de Contato</h1>
-       <form
-         action=""
-         method="POST"
-         class="form"
-       >
+       <form method='post'>
          <div className={contatos.linhaForm}>
            <label for="name">Nome</label>
            <input type="text" name="name" id="name" required />
@@ -43,7 +41,7 @@ function Contato() {
              
          <div className={contatos.linhaForm}>
            <label for="message">Mensagem</label>
-           <textarea name="message" id="message" required></textarea>
+           <textarea name="message" id="message" required ></textarea>
          </div>
         
          {/* <input type="hidden" name="_captcha" value="false" /><input
@@ -51,7 +49,7 @@ function Contato() {
            name=""
            value=""
          /> */}
-         <button type="submit">Enviar</button>
+         <button className={contatos.btnForm} type="submit" >Enviar</button>
        </form>
    </div>
 
