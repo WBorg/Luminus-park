@@ -13,8 +13,8 @@ function Card({atracao}) {
                 <img className={card.img} src={atracao.urlImg} alt="Imagem ilustrativa do brinquedo" />
                 <div className={card.info}>
                   <h2>{atracao.nome}</h2>
-                  <p>Altura mínima: {Number(atracao.minAlt).toFixed(2)}</p>
-                  <p>Altura máxima: {Number(atracao.maxAlt).toFixed(2)}</p>
+                  <p><strong>Altura mínima:</strong> {Number(atracao.minAlt).toFixed(2)}m</p>
+                  <p><strong>Altura máxima:</strong> {Number(atracao.maxAlt).toFixed(2)}m</p>
                 </div>
             </div>
 
