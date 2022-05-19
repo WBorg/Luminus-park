@@ -3,8 +3,8 @@ import mainCss from 'components/Main/main.module.css';
 
 
 
-// Import Swiper styles
-import 'swiper/css';
+
+
 
 function Main() {
     return ( 

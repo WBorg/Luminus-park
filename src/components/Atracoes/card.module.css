@@ -1,0 +1,32 @@
+.container{
+  width: 70%;
+  height: 200px;
+  border: 1px solid var(--ocre);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'DM Sans', sans-serif;
+  margin: 15px auto;
+  background-color: var(--palha);
+  box-shadow: 2px 2px 5px gray;
+  border-radius: 5px;
+}
+.info{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 0 auto;
+  font-size: 1.5rem;
+  color: #2c2c2c;
+}
+.info h2{
+  margin-bottom: 10px;
+}
+
+.img{
+  width: 40%;
+  height: 200px;
+ 
+  /* border: 1px double green; */
+  
+}
