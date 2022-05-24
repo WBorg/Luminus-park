@@ -6,28 +6,28 @@
             "nome": "Kami Kaze",
             "minAlt": 1.55,
             "maxAlt": 2.10,
-            "urlImg": "https://drive.google.com/file/d/1ouNvfSJ7b1gIwNfVfc-g0a4eT-ndrKVZ/view?usp=sharing"
+            "urlImg": "https://github.com/WBorg/Luminus-park/blob/main/src/img/kamiKaze.jpg"
         },
         {
             "id": 2,
             "nome": "Crazy Dance",
             "minAlt": 1.45,
             "maxAlt": 2.05,
-            "urlImg":"https://drive.google.com/file/d/19KyeCXhet6eKcX93rh2YvmQPXve5QDhU/view?usp=sharing"
+            "urlImg":"https://github.com/WBorg/Luminus-park/blob/main/src/img/crazyDance.jpg"
         },
         {
             "id": 3,
             "nome": "Roda Gigante",
             "minAlt": 1.47,
             "maxAlt": 2.17,
-            "urlImg":"https://drive.google.com/file/d/1R5J2bX4x6mF9i9fv1YgZZfvPs6LTfEU6/view?usp=sharing"
+            "urlImg":"https://github.com/WBorg/Luminus-park/blob/main/src/img/roda_gigante.jpg"
         },
         {
             "id": 4,
             "nome": "Samba",
             "minAlt": 1.55,
             "maxAlt": 2.18,
-            "urlImg":"https://drive.google.com/file/d/1IzTpYmdboATF39vOzcxDf6POzRO-jzHm/view?usp=sharing"
+            "urlImg":"https://github.com/WBorg/Luminus-park/blob/main/src/img/samba.jpg"
         }
 
     ]
