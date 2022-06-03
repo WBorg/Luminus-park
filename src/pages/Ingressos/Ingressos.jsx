@@ -7,11 +7,12 @@ import 'Styles/global.css'
 
 
 function Ingressos() {
+    
     return ( 
         <>
              <Header/>
             <Ingresso/>
-            <Footer/>
+            <Footer/> 
         </>
      );
 }

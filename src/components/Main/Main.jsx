@@ -15,12 +15,8 @@ function Main() {
                  <div className={mainCss.banner}> 
                     <SlideShow/>
                  </div> 
-                {/* <div className={mainCss.box}>
-                    <section className={mainCss.sectionHome}></section>
-                    <section className={mainCss.sectionHome}></section>
-                    <section className={mainCss.sectionHome}></section>
-                </div> */}
-                </main> 
+            
+            </main> 
                 
     
     );

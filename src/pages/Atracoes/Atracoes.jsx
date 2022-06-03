@@ -5,6 +5,7 @@ import Card from '../../components/Atracoes/Card';
 import axios from 'axios';
 import  { useState, useEffect } from 'react';
 import Footer from 'components/Footer/Footer';
+import api from 'services/Api';
 
 
 
@@ -23,7 +24,7 @@ function PagesAtracoes() {
 
     const [atracao, setAtracao] = useState([]);
     useEffect( () => {
-    axios.get('http://localhost:3004/atracoes')
+    api.get('/atracoes')
       .then(
         (response) => {
             setAtracao(response.data);
