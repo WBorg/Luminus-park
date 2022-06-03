@@ -55,7 +55,7 @@ function SlideShow() {
         {/* <SwiperSlide><img src={foto1} alt="Imagem 1" /></SwiperSlide>
         <SwiperSlide><img src={foto2} alt="Imagem 2" /></SwiperSlide>
         <SwiperSlide><img src={foto3} alt="Imagem 3" /></SwiperSlide> */}
-        {slide.map((slide) =>(<SwiperSlide><img  src={slide.urlBanner}/></SwiperSlide>) )}  
+        {slide.map((slide) =>(<SwiperSlide key={slide.id}><img  src={slide.urlBanner}/></SwiperSlide>) )}  
         
       </Swiper>
     </>
