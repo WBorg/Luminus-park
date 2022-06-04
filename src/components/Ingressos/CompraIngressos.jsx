@@ -13,8 +13,8 @@ function CompraIngressos(){
 
 //*********  INGRESSOS DO VALOR INTEIRO   **********
 
-    const [numeroingressos1, setValor] =useState(1);
-    const [valortotal, totalValor]=useState(120)
+    const [numeroingressos1, setValor] =useState(0);
+    const [valortotal, totalValor]=useState(0)
 
     function maisingressointeira(){
         setValor(numeroingressos1+1);
@@ -28,8 +28,8 @@ function CompraIngressos(){
 
 
 //*********  INGRESSOS DA METADE DO VALOR   **********
-    const [numeroingressos2, setValor2] =useState(1);
-    const [valortotal2, totalValor2]=useState(60)
+    const [numeroingressos2, setValor2] =useState(0);
+    const [valortotal2, totalValor2]=useState(0)
 
     function maisingressomeia(){
         setValor2(numeroingressos2+1);
